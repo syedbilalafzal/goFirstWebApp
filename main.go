@@ -28,6 +28,6 @@ func main() {
 	http.HandleFunc("/", Home)
 	http.HandleFunc("/about", About)
 
-	fmt.Println(fmt.Sprintf("Staring application on port %s", portNumber))
+	fmt.Println(fmt.Sprintf("Staring the application on port %s", portNumber))
 	_ = http.ListenAndServe(portNumber, nil)
 }
