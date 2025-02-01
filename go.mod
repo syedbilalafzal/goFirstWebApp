@@ -1,3 +1,3 @@
-module github.com/syedbilalafzal/goFirstWebApp
+module bookings-udemy
 
-go 1.23.5
+go 1.15
