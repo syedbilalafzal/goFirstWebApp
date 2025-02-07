@@ -1,9 +1,8 @@
 package handlers
 
 import (
+	"bookings-udemy/pkg/render"
 	"net/http"
-
-	"github.com/syedbilalafzal/goFirstWebApp/render"
 )
 
 // Home is the handler for the home page
