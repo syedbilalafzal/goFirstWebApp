@@ -1,9 +1,10 @@
 package main
 
 import (
-	"bookings-udemy/pkg/handlers"
 	"fmt"
 	"net/http"
+
+	"github.com/syedbilalafzal/goFirstWebApp/pkg/handlers"
 )
 
 const portNumber = ":8080"
